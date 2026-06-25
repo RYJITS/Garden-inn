@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- Favicon configuration -->
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="alternate icon" href="/favicon.ico" />
+    <link rel="shortcut icon" href="/vite.svg" />
+    
+    <!-- Viewport updated for full screen mobile experience (viewport-fit=cover) -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+    
+    <!-- SEO & Meta Tags -->
+    <title>Garden Inn & Restaurant - Hotel in Bukit Lawang, North Sumatra, Indonesia</title>
+    <meta name="description" content="Welcome to Garden Inn, your ideal hotel in Bukit Lawang, North Sumatra. Enjoy our restaurant, jungle trekking to see orangutans, and relaxing rooms by the river. Votre hôtel en Indonésie pour un séjour inoubliable." />
+    <meta name="keywords" content="Garden Inn, Bukit Lawang, Hotel Indonesie, Hotel Sumatra, North Sumatra, Guesthouse, Restaurant, Jungle Trekking, Orangutan, Accommodation" />
+    <meta name="author" content="Garden Inn" />
+    
+    <!-- Open Graph / Facebook / WhatsApp Preview -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://gardeninn-bukitlawang.com/" />
+    <meta property="og:title" content="Garden Inn - Hotel in Bukit Lawang, Sumatra" />
+    <meta property="og:description" content="Stay at Garden Inn in Bukit Lawang. Comfortable rooms, delicious food, and jungle adventures in the heart of Indonesia." />
+    <meta property="og:image" content="/images/home/1.webp" />
+
+    <!-- PWA Configuration -->
+    <meta name="theme-color" content="#E8E4DC" />
+    <link rel="manifest" href="/manifest.json" />
+    
+    <!-- iOS Specific Configuration for Full Screen -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Garden Inn" />
+    <link rel="apple-touch-icon" href="/vite.svg" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Poppins', 'sans-serif'],
+            },
+            transitionTimingFunction: {
+              'geo-out': 'cubic-bezier(0.25, 0.46, 0.45, 0.94)',
+              'geo-in': 'cubic-bezier(0.55, 0.085, 0.68, 0.53)',
+            }
+          }
+        }
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "vite": "https://aistudiocdn.com/vite@^7.2.4",
+    "@vitejs/plugin-react": "https://aistudiocdn.com/@vitejs/plugin-react@^5.1.1"
+  }
+}
+</script>
+<!-- 
+  GOOGLE MAPS API KEY
+  To enable dynamic ratings:
+  1. Uncomment the script tag below.
+  2. Replace YOUR_API_KEY with your actual Google Cloud API Key.
+  3. Ensure the 'Places API' and 'Maps JavaScript API' are enabled in your Google Cloud Console.
+-->
+<!-- <script async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&libraries=places&loading=async"></script> -->
+
+<!-- Structured Data (JSON-LD) for Local Business SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": ["Hotel", "Restaurant"],
+  "name": "Garden Inn & Restaurant",
+  "image": "https://gardeninn-bukitlawang.com/images/home/1.webp",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Jalan Orangutan",
+    "addressLocality": "Bukit Lawang",
+    "addressRegion": "Sumatera Utara",
+    "postalCode": "20774",
+    "addressCountry": "ID"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 3.5495271,
+    "longitude": 98.117457
+  },
+  "url": "https://gardeninn-bukitlawang.com",
+  "telephone": "+6281396000571",
+  "priceRange": "$",
+  "servesCuisine": "Indonesian, Western",
+  "description": "Garden Inn offers accommodation and dining in Bukit Lawang, North Sumatra. Experience jungle trekking and stay in the heart of Indonesia."
+}
+</script>
+
+<style>
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  /* --- 3D Text Geometry Effects --- */
+  .perspective-1000 {
+    perspective: 1000px;
+  }
+  
+  .preserve-3d {
+    transform-style: preserve-3d;
+  }
+
+  .backface-hidden {
+    backface-visibility: hidden;
+  }
+
+  /* --- Legacy Animations (kept for other components) --- */
+  @keyframes fade-in-up { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+  .animate-fade-in-up { animation: fade-in-up 0.8s ease-out 0.5s forwards; }
+
+  .text-shadow {
+    text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+  }
+  .text-shadow-lg {
+    text-shadow: 0 4px 8px rgba(0,0,0,0.5);
+  }
+</style>
+</head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>

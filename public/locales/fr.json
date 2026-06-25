@@ -1,0 +1,176 @@
+{
+  "general": {
+    "person": "personne"
+  },
+  "homePage": {
+    "slides": [
+      { "title": "Garden Inn", "subtitle": "Bienvenue à Bukit Lawang" },
+      { "title": "Dormez", "subtitle": "dans votre refuge dans la jungle" },
+      { "title": "Goûtez", "subtitle": "aux saveurs de Sumatra" },
+      { "title": "Explorez", "subtitle": "avec les orangs-outans" },
+      { "title": "Détendez-vous", "subtitle": "dans notre hôtel en Indonésie" }
+    ]
+  },
+  "bottomNav": {
+    "book": "Réserver",
+    "rooms": "Chambres",
+    "restaurant": "Restaurant",
+    "excursions": "Excursions",
+    "transfers": "Transferts",
+    "packages": "Forfaits",
+    "contact": "Contact",
+    "more": "Plus"
+  },
+  "roomsPage": {
+    "title": "Nos Chambres",
+    "showMore": "Plus de Détails",
+    "showLess": "Moins de Détails",
+    "bookNow": "Réserver maintenant",
+    "bookBtn": "Réserver"
+  },
+  "rooms": {
+    "standard": {
+      "name": "Chambre Standard",
+      "price": "dès 425 000 IDR/nuit",
+      "features": {
+        "gardenView": "Vue Jardin", "size": "25m²", "persons": "Max 2 personnes", "breakfast": "Petit-déjeuner inclus"
+      },
+      "details": {
+        "bedroom": { "title": "Chambre", "bed": "Lit double (160x180 cm)", "net": "Moustiquaire", "fan": "Ventilateur" },
+        "bathroom": { "title": "Salle de Bain Privée", "sink": "Lavabo", "shower": "Douche", "toilet": "Toilettes occidentales" },
+        "terrace": { "title": "Terrasse", "seating": "Coin salon", "hammock": "Hamac" }
+      }
+    },
+    "superior": {
+      "name": "Chambre Supérieure",
+      "price": "dès 540 000 IDR/nuit",
+      "features": {
+        "jungleView": "Vue Jungle", "size": "25m²", "persons": "Max 2 personnes", "breakfast": "Petit-déjeuner inclus"
+      },
+      "details": {
+        "bedroom": { "title": "Chambre", "bed": "Lit double (180x200 cm)", "net": "Moustiquaire", "fan": "Ventilateur", "safe": "Coffre-fort" },
+        "bathroom": { "title": "Salle de Bain Privée", "sink": "Lavabo", "shower": "Douche", "toilet": "Toilettes occidentales" },
+        "terrace": { "title": "Balcon", "seating": "Coin salon", "hammock": "Hamac" }
+      }
+    },
+    "family": {
+      "name": "Chambre Familiale",
+      "price": "dès 610 000 IDR/nuit",
+      "features": {
+        "jungleView": "Vue Jungle", "size": "30m²", "persons": "Max 4 personnes", "breakfast": "Petit-déjeuner inclus"
+      },
+      "details": {
+        "bedroom": { "title": "Chambre", "bed1": "Lit double (180x200 cm)", "bed2": "2 Lits simples (90x180 cm)", "net": "Moustiquaire", "fan": "Ventilateur", "safe": "Coffre-fort" },
+        "bathroom": { "title": "Salle de Bain Privée", "sink": "Lavabo", "shower": "Douche", "toilet": "Toilettes occidentales" },
+        "terrace": { "title": "Balcon", "seating": "Coin salon", "hammock": "Hamac" }
+      }
+    }
+  },
+  "restaurantPage": {
+    "title": "Restaurant",
+    "description": "<span class='font-bold text-emerald-600'>Notre restaurant</span> propose des repas frais provenant de sources locales, avec un mélange de plats occidentaux et indonésiens.<br/>Nous pouvons répondre aux besoins diététiques tels que végétalien, végétarien, sans lactose et sans gluten.",
+    "hours": "Ouvert tous les jours de 7h00 à 22h00"
+  },
+  "excursions": {
+    "jungleTreks": {
+      "title": "Trekking dans la Jungle",
+      "optionsTitle": "Options de Trek",
+      "mealsLabel": "Repas :",
+      "options": {
+        "halfDay": { "duration": "Demi-journée (3 heures)", "meals": "Collations de fruits" },
+        "oneDay": { "duration": "Une journée (6 heures)", "meals": "Collations de fruits, Déjeuner" },
+        "twoDays": { "duration": "Deux jours / Une nuit", "meals": "Collations de fruits, 2x Déjeuner, 1x Dîner, 1x Petit-déjeuner" },
+        "threeDays": { "duration": "Trois jours / Deux nuits", "meals": "Collations de fruits, 3x Déjeuner, 2x Dîner, 2x Petit-déjeuner" }
+      },
+      "info": {
+        "title": "Informations Importantes",
+        "description": "Tous nos treks <strong>commencent à 9h00</strong> et incluent l'<strong>entrée au parc national de Gunung Leuser</strong>, les <strong>services d'un guide certifié</strong> parlant anglais, et un <strong>retour en rafting traditionnel</strong>, avec un groupe de minimum 2 personnes à 6 personnes.<br/><br/>Pour les treks avec nuitée, votre voyage comprend une équipe qui installera un <strong>campement dans la jungle au bord de la rivière</strong>, avec moustiquaire, matelas, couvertures et un <strong>cuisinier personnel</strong> pour préparer vos repas.",
+        "whatToBring": "À apporter :",
+        "whatToBringDetails": "Chaussures de sport ou de randonnée, vêtements de randonnée confortables, maillot de bain et une serviette.<br/>Pour les nuitées, prévoyez des vêtements longs, une veste, une lampe de poche et des tongs.<br/>Les articles optionnels incluent chapeau, lunettes de soleil, anti-moustique, crème solaire et un imperméable."
+      }
+    },
+    "other": {
+      "title": "Activités",
+      "learnMore": "En savoir plus",
+      "massage": { "name": "Massage", "description": "Profitez d'une séance de détente après votre trek. Le massage traditionnel aide à relâcher les tensions et à restaurer votre énergie et votre bien-être.", "details": { "duration": "Durée : 1 heure", "price": "Prix : 250 000 IDR/personne" } },
+      "cooking": { "name": "Cours de Cuisine", "description": "Découvrez les saveurs de Sumatra et apprenez à cuisiner des plats traditionnels avec des ingrédients frais du marché du jour. Explorez une variété de légumes, d'herbes et d'épices, et apprenez à les préparer et à les combiner. Après le cours, détendez-vous et savourez le repas que vous avez préparé.", "details": { "dishes": "Choisissez 2 plats parmi : Gado-gado, Asam Manis, Kari, Semur, Sate et Sambal.", "options": "Options végétariennes et végétaliennes disponibles.", "time": "Heure : 10h00 – 13h00", "group": "Groupe : Min 2 - Max 4 personnes", "price": "Prix : 450 000 IDR/personne" } },
+      "village": { "name": "Tour du Village", "description": "Explorez le village en becak (moto traditionnelle avec side-car) ou à vélo pour voir les rizières, les plantations de fruits et légumes, et la production traditionnelle de sucre de palme et de tofu. Terminez votre excursion par un délicieux déjeuner dans les rizières en dégustant une noix de coco fraîche.", "details": { "time": "Heure : 9h00 – 13h00", "group": "Groupe : Minimum 2 personnes", "price": "Prix : 450 000 IDR/personne" } },
+      "night": { "name": "Trek de Nuit", "description": "Découvrez la jungle après la tombée de la nuit ! Pendant ce trek nocturne, vous aurez la chance d'apercevoir des animaux difficiles à voir pendant la journée, car ils se cachent généralement de la chaleur et du soleil. Vous pourriez rencontrer des serpents, des scorpions, des mille-pattes, des grenouilles, des lézards et d'autres créatures nocturnes fascinantes.", "details": { "time": "Heure : 19h00 – 22h00", "price": "Prix : 450 000 IDR/personne" } },
+      "flower": { "name": "Excursion Florale", "description": "Une escapade nature à la recherche de fleurs rares telles que la Rafflesia ou l'Arum titan. Ce voyage n'est possible que lorsqu'une fleur est en éclosion à proximité — comme leur apparition est aléatoire, veuillez nous contacter pour vérifier la disponibilité actuelle.", "details": { "price": "Prix : 450 000 IDR/personne" } }
+    }
+  },
+  "transfers": {
+    "title": "Transferts",
+    "viewOptions": "Voir toutes les options et prix de transfert",
+    "selectDest": "Sélectionnez votre destination :",
+    "destinations": {
+      "placeholder": "Choisissez une destination...",
+      "medan": "Medan (Aéroport / Ville)",
+      "berastagi": "Berastagi",
+      "lakeToba": "Lac Toba"
+    },
+    "pleaseSelect": "Veuillez sélectionner une destination pour voir les transferts disponibles.",
+    "pricesAre": "Les prix sont",
+    "private": {
+      "title": "🚗 Service de Transfert Privé",
+      "unit": "par voiture/minibus",
+      "routes": {
+        "medanCenter": "Medan (centre-ville) ↔ Bukit Lawang", "medanOutside": "Medan (extérieur ville) ↔ Bukit Lawang", "medanAirport": "Medan (aéroport / hôtel proche) ↔ Bukit Lawang", "berastagi": "Berastagi ↔ Bukit Lawang", "lakeToba": "Lac Toba (Port de Parapat) ↔ Bukit Lawang"
+      }
+    },
+    "bus": {
+      "title": "🚌 Bus Touristique",
+      "unit": "par personne",
+      "routes": {
+        "medan": "Aéroport de Medan / hôtel proche → Bukit Lawang", "lawangMedan": "Bukit Lawang → Aéroport de Medan / hôtel proche", "berastagi": "Bukit Lawang → Berastagi", "lakeToba": "Bukit Lawang → Lac Toba"
+      }
+    },
+    "table": { "route": "Trajet", "duration": "Durée", "vehicle": "Véhicule", "maxPersons": "Pers. Max", "price": "Prix (IDR)", "departure": "Heure de Départ", "pricePerson": "Prix (IDR/pers.)" },
+    "vehicles": { "car": "Voiture", "minibus": "Minibus" }
+  },
+  "packages": {
+    "title": "Forfaits",
+    "includedTitle": "Ce qui est inclus :",
+    "priceTitle": "Prix (à partir de) :",
+    "package1": {
+      "name": "Forfait 1",
+      "inclusions": { "pickup": "Prise en charge à l'aéroport de Medan en voiture privée", "night1": "1 nuit en Chambre Supérieure/Familiale", "trek": "Trekking jungle 2 jours / 1 nuit + rafting", "night2": "1 nuit en Chambre Supérieure/Familiale", "dropoff": "Retour à l'aéroport de Medan en voiture privée" },
+      "prices": { "person1": "Pour 1 personne : 3 980 000 IDR", "person2": "Pour 2 personnes : 5 800 000 IDR", "person3": "Pour 3 personnes : 7 700 000 IDR", "person4": "Pour 4 personnes : 9 600 000 IDR" }
+    },
+    "package2": {
+      "name": "Forfait 2",
+      "inclusions": { "pickup": "Prise en charge à l'aéroport de Medan en voiture privée", "nights": "2 nuits en Chambre Supérieure/Familiale", "trek": "Trekking jungle 1 journée + rafting", "dropoff": "Retour à l'aéroport de Medan en voiture privée" },
+      "prices": { "person2": "Pour 2 personnes : 4 200 000 IDR", "person3": "Pour 3 personnes : 5 300 000 IDR", "person4": "Pour 4 personnes : 6 400 000 IDR" }
+    },
+    "package3": {
+      "name": "Forfait 3",
+      "inclusions": { "pickup": "Prise en charge à l'aéroport de Medan en bus touristique (départ à 14h00)", "night1": "1 nuit en Chambre Standard", "trek": "Trekking jungle 2 jours / 1 nuit + rafting", "night2": "1 nuit en Chambre Standard", "dropoff": "Retour à l'aéroport de Medan en bus touristique (départ à 8h30)" },
+      "prices": { "person1": "Pour 1 personne : 2 800 000 IDR", "person2": "Pour 2 personnes : 4 900 000 IDR" }
+    }
+  },
+  "contactPage": {
+    "title": "Nous Contacter",
+    "description": "Vous avez une question ou une demande spéciale ? Envoyez-nous un message !",
+    "emailHint": "Cliquez ici pour ouvrir directement votre boîte mail.",
+    "form": {
+      "name": "Nom", "email": "Email", "pax": "Nombre de Personnes", "dates": "Dates", "datesPlaceholder": "ex: 15-20 mai 2024", "message": "Message", "submit": "Envoyer le Message"
+    },
+    "success": {
+      "title": "Merci !", "message": "Votre message a été envoyé. Nous vous répondrons sous peu."
+    }
+  },
+  "footer": {
+    "contact": "Nous Contacter",
+    "address": "Garden Inn & Restaurant, Jalan Orangutan, Bukit Lawang 20774, Sumatera Utara - INDONESIA",
+    "mapUrl": "https://www.google.com/maps/place/Garden+Inn+%26+Restaurant/@3.5495271,98.117457,17z/data=!3m1!4b1!4m9!3m8!1s0x3030b78ade7af4bb:0xdebda933ec1309a5!5m2!4m1!1i2!8m2!3d3.5495271!4d98.117457!16s%2Fg%2F11bxjgd9t5?entry=ttu",
+    "phone": "(+62) 0823 8118 0035",
+    "email": "bukitgardeninn@gmail.com",
+    "instagramUrl": "https://www.instagram.com/gardeninn_bukitlawang/?hl=en",
+    "reviewsTitle": "L'Avis de Nos Clients",
+    "reviewsButton": "Lire nos avis Google",
+    "reviewsUrl": "https://www.google.com/travel/search?q=garden%20inn%20bukit%20lawang&g2lb=4965990%2C72317059%2C72414906%2C72471280%2C72485658%2C72560029%2C72573224%2C72647020%2C72686036%2C72803964%2C72882230%2C72958624%2C72959983%2C73059275%2C73064764%2C73107089%2C73157411&hl=fr-CH&gl=ch&cs=1&ssta=1&ts=CAEaRwopEicyJTB4MzAzMGI3OGFkZTdhZjRiYjoweGRlYmRhOTMzZWMxMzA5YTUSGhIUCgcI6Q8QCxgQEgcI6Q8QCxgRGAEyAhAA&qs=CAEyFENnc0lwWlBNNEw2bTZ0N2VBUkFCOAJCCQmlCRPsM6m93kIJCaUJE-wzqb3e&ap=ugEHcmV2aWV3cw&ictx=111&ved=0CAAQ5JsGahcKEwjg6MvbhOaQAxUAAAAAHQAAAAAQBA",
+    "socialTitle": "Suivez Nos Aventures",
+    "socialButton": "Visitez notre Instagram",
+    "copyright": "© {year} Garden Inn & Restaurant. Tous Droits Réservés."
+  }
+}
