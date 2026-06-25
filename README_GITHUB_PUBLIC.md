@@ -26,6 +26,12 @@ npm run dev
 npm run build
 ```
 
+## Captures d'ecran
+
+![Capture desktop](docs/github-captures/10-garden-inn-2026-06-25_03-17-59-desktop.png)
+
+![Capture mobile](docs/github-captures/10-garden-inn-2026-06-25_03-17-59-mobile.png)
+
 ## Variables d'environnement
 
 Aucune variable d'environnement n'a ete detectee par l'orchestrateur.
