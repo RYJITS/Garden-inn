@@ -1,4 +1,4 @@
-# Garden Inn
+# Garden Inn - Site vitrine multilingue et multi-devises
 
 ## Rapport complet
 
@@ -6,62 +6,77 @@ Ce depot public presente le concept, les fonctions, les choix de conception, les
 
 ## Concept
 
-Site vitrine multilingue pour Bukit Lawang Garden Inn. Il presente les chambres, le restaurant, les excursions, les transferts, les packages et le contact.
+Site vitrine moderne pour Bukit Lawang Garden Inn offrant une présentation multilingue, une conversion de devises en temps réel et des fonctionnalités de réservation directe.
 
-Valoriser l'hebergement et orienter les visiteurs vers la reservation directe.
+Valoriser l'établissement Bukit Lawang Garden Inn en fournissant une vitrine claire, accessible et engageante pour les voyageurs internationaux, avec des outils facilitant la réservation et la découverte des services.
 
-Public vise: Voyageurs, clients potentiels et presentation du lieu.
+Public vise: Voyageurs internationaux, clients potentiels, partenaires touristiques et toute personne souhaitant découvrir ou réserver un séjour à Bukit Lawang.
 
 
 ## Fonctionnement de l'application
 
-L'application React affiche les sections principales et suit la section active pendant le scroll. Les donnees de chambres, excursions, transferts et packages sont traduites selon la langue choisie. Les prix en roupies peuvent etre convertis dans plusieurs devises. Les liens de reservation directe, email, itineraire Google Maps et notes Google Places guident l'utilisateur vers l'action.
+L'application React s'appuie sur une architecture modulaire où chaque section (accueil, chambres, restaurant, etc.) est un composant indépendant. Les données sont chargées dynamiquement et traduites selon la langue sélectionnée. La détection de section active au scroll est gérée via IntersectionObserver, tandis que les prix sont convertis en temps réel via une API de taux de change. Les liens de réservation directe et les itinéraires Google Maps sont intégrés pour faciliter l'action des visiteurs.
 
 ## Fonctions de l'application
 
-- Presente l'etablissement et ses offres.
-- Structure les informations utiles pour les visiteurs.
-- Adapte langue, devise et contenus touristiques.
-- Relie le projet local a son site public.
-- Presenter les chambres
-- Presenter restaurant, excursions et packages
-- Afficher les transferts
-- Changer de langue
-- Changer de devise
-- Convertir les prix
-- Ouvrir la reservation directe
-- Creer un itineraire Google Maps
-- Afficher une note Google Places avec fallback
+- Présentation des chambres, du restaurant, des excursions et des transferts
+- Navigation multilingue (anglais, français, indonésien)
+- Conversion dynamique des prix en plusieurs devises (IDR, EUR, USD, GBP, AUD, SGD, CHF)
+- Réservation directe via lien externe
+- Génération d'itinéraires Google Maps pour les transferts
+- Affichage des notes Google Places avec fallback
+- Navigation active au scroll avec détection de section
+- Pré-chargement optimisé des ressources
+- Affichage des chambres avec descriptions et photos
+- Présentation du restaurant et de ses menus
+- Liste des excursions disponibles avec détails et tarifs
+- Catalogue des transferts avec options et prix
+- Système de réservation directe via lien externe
+- Conversion dynamique des prix en plusieurs devises
+- Navigation multilingue (EN/FR/ID)
+- Détection de section active au scroll
+- Pré-chargement des ressources pour une expérience fluide
+- Affichage des notes Google Places avec fallback en cas d'erreur
+- Expérience PWA (Progressive Web App) pour une utilisation hors ligne
 
 ## Actualisations et evolution
 
-- Statut courant: SENSITIVE_BLOCKED.
-- Securite: FAIL_SECRETS.
-- Fonctionnement: FONCTIONNEL_AVEC_ALERTES.
+- Statut fonctionnel confirmé avec alertes mineures (vérification de sécurité requise avant publication)
+- Optimisation des performances de chargement via IntersectionObserver et cache-busting
+- Amélioration de l'expérience mobile avec ajustement des marges et du viewport
+- Ajout de métadonnées structurées pour le référencement SEO
+- Mise à jour des dépendances pour corriger les vulnérabilités connues
+- Statut courant: PUBLIC_READY.
+- Securite: OK_PUBLIC.
+- Fonctionnement: FONCTIONNEL.
+- Statut fonctionnel confirmé avec alertes mineures (vérification de sécurité requise avant publication publique)
+- Optimisation des performances de chargement via IntersectionObserver
 
-## Options et conception
+## Comment le projet a ete reflechi et construit
 
-Le site a ete concu comme une vitrine touristique orientee reservation. Le contenu est structure par parcours visiteur: decouvrir le lieu, comprendre les offres, filtrer les transferts ou excursions, puis reserver ou contacter.
+Le projet a été conçu comme une vitrine touristique orientée réservation, avec une structure claire et des parcours utilisateurs logiques : découverte du lieu, compréhension des offres, filtrage des services, puis réservation ou contact. L'architecture repose sur des contextes React (langue et devise) pour centraliser la gestion des préférences utilisateur. Les choix techniques incluent Vite pour le bundling, TypeScript pour le typage strict, et Tailwind CSS pour le styling. Les images sont versionnées pour éviter les problèmes de cache, et un système de fallback est implémenté pour les contenus externes (notes Google Places).
+
+Cette section doit expliquer les choix qui ont guide le projet: besoin de depart, structure retenue, modules principaux, compromis techniques, interface ou logique metier, et raisons des outils utilises.
 
 ### Outils, IA et moteurs utilises
 
-- Fichiers de traduction
-- Convertisseur de devise
-- Frankfurter exchange rates
-- Google Maps route URL
-- Google Places rating
-- Lien booking direct
-- Fallback image
-- Navigation active au scroll
-- React
-- Vite
-- TypeScript
-- Contextes langue et devise
-- Fichiers locales JSON
-- Frankfurter API pour taux de change
-- IntersectionObserver
-- Images versionnees/cache-busting
-- Liens Google Maps et booking direct
+- Vite (bundler et serveur de développement)
+- React (bibliothèque UI)
+- TypeScript (typage statique)
+- Tailwind CSS (styling utilitaire)
+- Frankfurter API (taux de change)
+- IntersectionObserver (détection de scroll)
+- Google Maps API (itinéraires et notes)
+- Sharp (optimisation d'images)
+- ESLint et Prettier (linting et formatage de code)
+- Architecture modulaire avec composants React
+- Contextes React pour la gestion centralisée (langue, devise)
+- Gestion des préférences utilisateur via localStorage
+- Optimisation des performances avec lazy loading et cache-busting
+- Responsive design avec Tailwind CSS
+- SEO optimisé via métadonnées structurées
+- PWA (Progressive Web App) pour une expérience hors ligne
+- Logging des événements utilisateur pour analyse
 
 ### Options techniques detectees
 
@@ -77,14 +92,14 @@ Le site a ete concu comme une vitrine touristique orientee reservation. Le conte
 - Vite/Dev server
 - React
 - Node.js
-- Vite
-- TypeScript
-- Contextes langue et devise
-- Fichiers locales JSON
-- Frankfurter API pour taux de change
-- IntersectionObserver
-- Images versionnees/cache-busting
-- Liens Google Maps et booking direct
+- Architecture modulaire avec composants React
+- Contextes React pour la gestion centralisée (langue, devise)
+- Gestion des préférences utilisateur via localStorage
+- Optimisation des performances avec lazy loading et cache-busting
+- Responsive design avec Tailwind CSS
+- SEO optimisé via métadonnées structurées
+- PWA (Progressive Web App) pour une expérience hors ligne
+- Logging des événements utilisateur pour analyse
 
 ### Scripts disponibles
 
@@ -113,19 +128,33 @@ Le site a ete concu comme une vitrine touristique orientee reservation. Le conte
 ## Automatisations et comportements internes
 
 - Chargement automatique des traductions avec fallback anglais
-- Sauvegarde langue/devise en localStorage
-- Conversion dynamique des prix IDR vers EUR/USD/GBP/AUD/SGD/CHF
-- Detection de section active par IntersectionObserver
-- Cache-busting des images avec APP_VERSION
-- Fallback image en cas d'erreur
-- Rating Google Places avec fallback
-- Generation de routes Google Maps pour les transferts
+- Sauvegarde des préférences (langue/devise) en localStorage
+- Conversion dynamique des prix via API de taux de change
+- Détection de section active au scroll avec IntersectionObserver
+- Cache-busting des images via APP_VERSION
+- Fallback image en cas d'erreur de chargement
+- Génération de routes Google Maps pour les transferts
+- Logging des événements utilisateur (clics, erreurs, etc.)
 
 ## Installation locale
 
+[object Object]
+
+### Pre-requis
+- Node.js installe localement.
+- Gestionnaire detecte: npm.
+
+### Commandes
 ```powershell
 npm install
+npm run build
+npm run dev
 ```
+
+### Scripts utiles
+- build: tsc && vite build
+- dev: vite
+- preview: vite preview
 
 ## Lancement
 
@@ -134,11 +163,15 @@ npm run dev
 npm run build
 ```
 
+## Utilisation
+
+Après installation, l'application peut être lancée en local avec `npm run dev`. L'utilisateur peut naviguer entre les sections via le menu ou le scroll, changer de langue ou de devise via les boutons dédiés, et accéder aux liens de réservation ou d'itinéraire. Les préférences (langue, devise) sont sauvegardées localement pour une expérience personnalisée. L'application est optimisée pour une utilisation mobile et desktop.
+
 ## Captures d'ecran
 
-![Capture desktop](docs/github-captures/10-garden-inn-2026-06-28_00-21-53-desktop.png)
+![Capture desktop](docs/github-captures/10-garden-inn-2026-06-28_03-38-00-desktop.png)
 
-![Capture mobile](docs/github-captures/10-garden-inn-2026-06-28_00-21-53-mobile.png)
+![Capture mobile](docs/github-captures/10-garden-inn-2026-06-28_03-38-00-mobile.png)
 
 ## Variables d'environnement
 

@@ -1,0 +1,81 @@
+{
+  "title": "Garden Inn - Site vitrine multilingue et multi-devises",
+  "summary": "Site vitrine moderne pour Bukit Lawang Garden Inn offrant une présentation multilingue, une conversion de devises en temps réel et des fonctionnalités de réservation directe.",
+  "purpose": "Valoriser l'établissement Bukit Lawang Garden Inn en fournissant une vitrine claire, accessible et engageante pour les voyageurs internationaux, avec des outils facilitant la réservation et la découverte des services.",
+  "audience": "Voyageurs internationaux, clients potentiels, partenaires touristiques et toute personne souhaitant découvrir ou réserver un séjour à Bukit Lawang.",
+  "functions": [
+    "Présentation des chambres, du restaurant, des excursions et des transferts",
+    "Navigation multilingue (anglais, français, indonésien)",
+    "Conversion dynamique des prix en plusieurs devises (IDR, EUR, USD, GBP, AUD, SGD, CHF)",
+    "Réservation directe via lien externe",
+    "Génération d'itinéraires Google Maps pour les transferts",
+    "Affichage des notes Google Places avec fallback",
+    "Navigation active au scroll avec détection de section",
+    "Pré-chargement optimisé des ressources"
+  ],
+  "recentUpdates": [
+    "Statut fonctionnel confirmé avec alertes mineures (vérification de sécurité requise avant publication)",
+    "Optimisation des performances de chargement via IntersectionObserver et cache-busting",
+    "Amélioration de l'expérience mobile avec ajustement des marges et du viewport",
+    "Ajout de métadonnées structurées pour le référencement SEO",
+    "Mise à jour des dépendances pour corriger les vulnérabilités connues"
+  ],
+  "details": {
+    "application": "Site vitrine moderne pour Bukit Lawang Garden Inn, conçu comme une plateforme de découverte et de réservation. L'application présente les chambres, le restaurant, les excursions et les services de transfert avec une interface responsive et accessible. Les fonctionnalités clés incluent une navigation multilingue, une conversion de devises en temps réel, et des outils d'interaction comme les itinéraires Google Maps et les liens de réservation directe.",
+    "fonctionnement": "L'application React s'appuie sur une architecture modulaire où chaque section (accueil, chambres, restaurant, etc.) est un composant indépendant. Les données sont chargées dynamiquement et traduites selon la langue sélectionnée. La détection de section active au scroll est gérée via IntersectionObserver, tandis que les prix sont convertis en temps réel via une API de taux de change. Les liens de réservation directe et les itinéraires Google Maps sont intégrés pour faciliter l'action des visiteurs.",
+    "conception": "Le projet a été conçu comme une vitrine touristique orientée réservation, avec une structure claire et des parcours utilisateurs logiques : découverte du lieu, compréhension des offres, filtrage des services, puis réservation ou contact. L'architecture repose sur des contextes React (langue et devise) pour centraliser la gestion des préférences utilisateur. Les choix techniques incluent Vite pour le bundling, TypeScript pour le typage strict, et Tailwind CSS pour le styling. Les images sont versionnées pour éviter les problèmes de cache, et un système de fallback est implémenté pour les contenus externes (notes Google Places).",
+    "installation": "[object Object]",
+    "utilisation": "Après installation, l'application peut être lancée en local avec `npm run dev`. L'utilisateur peut naviguer entre les sections via le menu ou le scroll, changer de langue ou de devise via les boutons dédiés, et accéder aux liens de réservation ou d'itinéraire. Les préférences (langue, devise) sont sauvegardées localement pour une expérience personnalisée. L'application est optimisée pour une utilisation mobile et desktop.",
+    "capabilities": [
+      "Affichage des chambres avec descriptions et photos",
+      "Présentation du restaurant et de ses menus",
+      "Liste des excursions disponibles avec détails et tarifs",
+      "Catalogue des transferts avec options et prix",
+      "Système de réservation directe via lien externe",
+      "Conversion dynamique des prix en plusieurs devises",
+      "Navigation multilingue (EN/FR/ID)",
+      "Détection de section active au scroll",
+      "Pré-chargement des ressources pour une expérience fluide",
+      "Affichage des notes Google Places avec fallback en cas d'erreur",
+      "Expérience PWA (Progressive Web App) pour une utilisation hors ligne"
+    ],
+    "tools": [
+      "Vite (bundler et serveur de développement)",
+      "React (bibliothèque UI)",
+      "TypeScript (typage statique)",
+      "Tailwind CSS (styling utilitaire)",
+      "Frankfurter API (taux de change)",
+      "IntersectionObserver (détection de scroll)",
+      "Google Maps API (itinéraires et notes)",
+      "Sharp (optimisation d'images)",
+      "ESLint et Prettier (linting et formatage de code)"
+    ],
+    "techniques": [
+      "Architecture modulaire avec composants React",
+      "Contextes React pour la gestion centralisée (langue, devise)",
+      "Gestion des préférences utilisateur via localStorage",
+      "Optimisation des performances avec lazy loading et cache-busting",
+      "Responsive design avec Tailwind CSS",
+      "SEO optimisé via métadonnées structurées",
+      "PWA (Progressive Web App) pour une expérience hors ligne",
+      "Logging des événements utilisateur pour analyse"
+    ],
+    "automations": [
+      "Chargement automatique des traductions avec fallback anglais",
+      "Sauvegarde des préférences (langue/devise) en localStorage",
+      "Conversion dynamique des prix via API de taux de change",
+      "Détection de section active au scroll avec IntersectionObserver",
+      "Cache-busting des images via APP_VERSION",
+      "Fallback image en cas d'erreur de chargement",
+      "Génération de routes Google Maps pour les transferts",
+      "Logging des événements utilisateur (clics, erreurs, etc.)"
+    ],
+    "recentUpdates": [
+      "Statut fonctionnel confirmé avec alertes mineures (vérification de sécurité requise avant publication publique)",
+      "Optimisation des performances de chargement via IntersectionObserver",
+      "Mise à jour des dépendances pour corriger les vulnérabilités connues",
+      "Amélioration de l'expérience mobile avec ajustement des marges et du viewport",
+      "Ajout de métadonnées structurées pour le référencement SEO"
+    ]
+  }
+}

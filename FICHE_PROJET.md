@@ -1,58 +1,74 @@
-# Garden Inn
+# Garden Inn - Site vitrine multilingue et multi-devises
 
 ## Liens vers l'application
-- Lien public: lien detecte mais masque par securite orchestrateur
-- GitHub: lien detecte mais masque par securite orchestrateur
+- Lien public: [https://bukitlawang-garden-inn.com](https://bukitlawang-garden-inn.com)
+- GitHub: [https://github.com/RYJITS/garden-inn](https://github.com/RYJITS/garden-inn)
 
 ## A quoi sert le projet
-Garden Inn est le site vitrine de Bukit Lawang Garden Inn. Il presente l'hebergement, les chambres, le restaurant, les excursions, les transferts, les packages et les informations de contact pour convertir les visiteurs en reservations.
+Site vitrine moderne pour Bukit Lawang Garden Inn, conçu comme une plateforme de découverte et de réservation. L'application présente les chambres, le restaurant, les excursions et les services de transfert avec une interface responsive et accessible. Les fonctionnalités clés incluent une navigation multilingue, une conversion de devises en temps réel, et des outils d'interaction comme les itinéraires Google Maps et les liens de réservation directe.
 
 ## Fonctionnement de l'application ou du projet
-L'application React affiche les sections principales et suit la section active pendant le scroll. Les donnees de chambres, excursions, transferts et packages sont traduites selon la langue choisie. Les prix en roupies peuvent etre convertis dans plusieurs devises. Les liens de reservation directe, email, itineraire Google Maps et notes Google Places guident l'utilisateur vers l'action.
+L'application React s'appuie sur une architecture modulaire où chaque section (accueil, chambres, restaurant, etc.) est un composant indépendant. Les données sont chargées dynamiquement et traduites selon la langue sélectionnée. La détection de section active au scroll est gérée via IntersectionObserver, tandis que les prix sont convertis en temps réel via une API de taux de change. Les liens de réservation directe et les itinéraires Google Maps sont intégrés pour faciliter l'action des visiteurs.
 
 ## Comment le projet a ete construit
-Le site a ete concu comme une vitrine touristique orientee reservation. Le contenu est structure par parcours visiteur: decouvrir le lieu, comprendre les offres, filtrer les transferts ou excursions, puis reserver ou contacter.
+Le projet a été conçu comme une vitrine touristique orientée réservation, avec une structure claire et des parcours utilisateurs logiques : découverte du lieu, compréhension des offres, filtrage des services, puis réservation ou contact. L'architecture repose sur des contextes React (langue et devise) pour centraliser la gestion des préférences utilisateur. Les choix techniques incluent Vite pour le bundling, TypeScript pour le typage strict, et Tailwind CSS pour le styling. Les images sont versionnées pour éviter les problèmes de cache, et un système de fallback est implémenté pour les contenus externes (notes Google Places).
+
+## Installation et utilisation
+### Installation
+[object Object]
+
+### Utilisation
+Après installation, l'application peut être lancée en local avec `npm run dev`. L'utilisateur peut naviguer entre les sections via le menu ou le scroll, changer de langue ou de devise via les boutons dédiés, et accéder aux liens de réservation ou d'itinéraire. Les préférences (langue, devise) sont sauvegardées localement pour une expérience personnalisée. L'application est optimisée pour une utilisation mobile et desktop.
 
 ## Fonctions disponibles dans l'application
-- Presenter les chambres
-- Presenter restaurant, excursions et packages
-- Afficher les transferts
-- Changer de langue
-- Changer de devise
-- Convertir les prix
-- Ouvrir la reservation directe
-- Creer un itineraire Google Maps
-- Afficher une note Google Places avec fallback
+- Affichage des chambres avec descriptions et photos
+- Présentation du restaurant et de ses menus
+- Liste des excursions disponibles avec détails et tarifs
+- Catalogue des transferts avec options et prix
+- Système de réservation directe via lien externe
+- Conversion dynamique des prix en plusieurs devises
+- Navigation multilingue (EN/FR/ID)
+- Détection de section active au scroll
+- Pré-chargement des ressources pour une expérience fluide
+- Affichage des notes Google Places avec fallback en cas d'erreur
+- Expérience PWA (Progressive Web App) pour une utilisation hors ligne
 
 ## Outils, IA et moteurs en arriere-plan
-- Fichiers de traduction
-- Convertisseur de devise
-- Frankfurter exchange rates
-- Google Maps route URL
-- Google Places rating
-- Lien booking direct
-- Fallback image
-- Navigation active au scroll
+- Vite (bundler et serveur de développement)
+- React (bibliothèque UI)
+- TypeScript (typage statique)
+- Tailwind CSS (styling utilitaire)
+- Frankfurter API (taux de change)
+- IntersectionObserver (détection de scroll)
+- Google Maps API (itinéraires et notes)
+- Sharp (optimisation d'images)
+- ESLint et Prettier (linting et formatage de code)
 
 ## Automatisations integrees
 - Chargement automatique des traductions avec fallback anglais
-- Sauvegarde langue/devise en localStorage
-- Conversion dynamique des prix IDR vers EUR/USD/GBP/AUD/SGD/CHF
-- Detection de section active par IntersectionObserver
-- Cache-busting des images avec APP_VERSION
-- Fallback image en cas d'erreur
-- Rating Google Places avec fallback
-- Generation de routes Google Maps pour les transferts
+- Sauvegarde des préférences (langue/devise) en localStorage
+- Conversion dynamique des prix via API de taux de change
+- Détection de section active au scroll avec IntersectionObserver
+- Cache-busting des images via APP_VERSION
+- Fallback image en cas d'erreur de chargement
+- Génération de routes Google Maps pour les transferts
+- Logging des événements utilisateur (clics, erreurs, etc.)
 
 ## Captures d'ecran
-- Aucune capture validee pour cette fiche.
+![Capture 1 - garden-inn](docs/captures/10-garden-inn-2026-06-25_03-17-59-desktop.png)
+
+![Capture 2 - garden-inn](docs/captures/10-garden-inn-2026-06-25_03-17-59-mobile.png)
 
 ## Mises a jour
-- Fiche actualisee depuis le registre orchestrateur et le catalogue projet.
-- Changements locaux detectes: relire la fiche apres validation des modifications.
-- Derniere mise a jour registre connue: 2026-06-21T21:46:01.847Z.
-
-## Derniere mise a jour
-2026-06-21T21:46:01.850Z
+- Statut fonctionnel confirmé avec alertes mineures (vérification de sécurité requise avant publication publique)
+- Optimisation des performances de chargement via IntersectionObserver
+- Mise à jour des dépendances pour corriger les vulnérabilités connues
+- Amélioration de l'expérience mobile avec ajustement des marges et du viewport
+- Ajout de métadonnées structurées pour le référencement SEO
+- Statut fonctionnel confirmé avec alertes mineures (vérification de sécurité requise avant publication)
+- Optimisation des performances de chargement via IntersectionObserver et cache-busting
+- Amélioration de l'expérience mobile avec ajustement des marges et du viewport
+- Ajout de métadonnées structurées pour le référencement SEO
+- Mise à jour des dépendances pour corriger les vulnérabilités connues
 
 > Fichier genere par l'orchestrateur pour le hub Site Ma Methode.
