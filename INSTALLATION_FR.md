@@ -1,9 +1,11 @@
 # Installation - garden-inn
 
-Chemin: `D:\00_Cerveau_IA\Projet\10_garden-inn`
+```powershell
+git clone https://github.com/RYJITS/garden-inn.git
+cd garden-inn
+```
 
 ```powershell
-cd "D:\00_Cerveau_IA\Projet\10_garden-inn"
 npm install
 npm run dev
 ```
