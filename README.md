@@ -71,12 +71,10 @@ L'application React s'appuie sur une architecture modulaire où chaque section (
 
 ## Actualisations et evolution
 
-- Statut fonctionnel confirmé avec alertes mineures (vérification de sécurité requise avant publication)
 - Optimisation des performances de chargement via IntersectionObserver et cache-busting
 - Amélioration de l'expérience mobile avec ajustement des marges et du viewport
 - Ajout de métadonnées structurées pour le référencement SEO
 - Mise à jour des dépendances pour corriger les vulnérabilités connues
-- Statut fonctionnel confirmé avec alertes mineures (vérification de sécurité requise avant publication publique)
 - Optimisation des performances de chargement via IntersectionObserver
 
 ## Comment le projet a ete reflechi et construit

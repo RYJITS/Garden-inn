@@ -60,10 +60,8 @@ Après installation, l'application peut être lancée en local avec `npm run dev
 ![Capture 2 - garden-inn](docs/captures/10-garden-inn-2026-06-25_03-17-59-mobile.png)
 
 ## Mises a jour
-- Statut fonctionnel confirmé avec alertes mineures (vérification de sécurité requise avant publication publique)
 - Optimisation des performances de chargement via IntersectionObserver
 - Mise à jour des dépendances pour corriger les vulnérabilités connues
 - Amélioration de l'expérience mobile avec ajustement des marges et du viewport
 - Ajout de métadonnées structurées pour le référencement SEO
-- Statut fonctionnel confirmé avec alertes mineures (vérification de sécurité requise avant publication)
 - Optimisation des performances de chargement via IntersectionObserver et cache-busting
