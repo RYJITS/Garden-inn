@@ -1,8 +1,18 @@
 # Garden Inn - Site vitrine multilingue et multi-devises
 
+## Statut de diffusion
+Projet explique sur Site Ma Methode: la fiche publique peut presenter son utilite, ses fonctions, son avancement et ses liens disponibles.
+
 ## Liens vers l'application
-- Lien public: [https://bukitlawang-garden-inn.com](https://bukitlawang-garden-inn.com)
+- Application: [https://bukitlawang-garden-inn.com](https://bukitlawang-garden-inn.com)
 - GitHub: [https://github.com/RYJITS/garden-inn](https://github.com/RYJITS/garden-inn)
+
+## Avancement du projet
+- Etat du projet: pret cote usage public.
+- Fonctionnement: fonctionnel.
+- Securite: OK pour une presentation publique.
+- Ma Methode: fiche explicative visible.
+- Publication externe: candidat public, validation finale separee.
 
 ## A quoi sert le projet
 Site vitrine moderne pour Bukit Lawang Garden Inn, conçu comme une plateforme de découverte et de réservation. L'application présente les chambres, le restaurant, les excursions et les services de transfert avec une interface responsive et accessible. Les fonctionnalités clés incluent une navigation multilingue, une conversion de devises en temps réel, et des outils d'interaction comme les itinéraires Google Maps et les liens de réservation directe.
@@ -15,7 +25,13 @@ Le projet a été conçu comme une vitrine touristique orientée réservation, a
 
 ## Installation et utilisation
 ### Installation
-[object Object]
+Installation locale standard pour la version partageable du projet:
+
+```powershell
+npm install
+npm run build
+npm run dev
+```
 
 ### Utilisation
 Après installation, l'application peut être lancée en local avec `npm run dev`. L'utilisateur peut naviguer entre les sections via le menu ou le scroll, changer de langue ou de devise via les boutons dédiés, et accéder aux liens de réservation ou d'itinéraire. Les préférences (langue, devise) sont sauvegardées localement pour une expérience personnalisée. L'application est optimisée pour une utilisation mobile et desktop.
@@ -55,9 +71,9 @@ Après installation, l'application peut être lancée en local avec `npm run dev
 - Logging des événements utilisateur (clics, erreurs, etc.)
 
 ## Captures d'ecran
-![Capture 1 - garden-inn](docs/captures/10-garden-inn-2026-06-25_03-17-59-desktop.png)
+![Capture 1 - garden-inn](docs/captures/10-garden-inn-2026-08-30_00-29-42-desktop.png)
 
-![Capture 2 - garden-inn](docs/captures/10-garden-inn-2026-06-25_03-17-59-mobile.png)
+![Capture 2 - garden-inn](docs/captures/10-garden-inn-2026-08-30_00-29-42-mobile.png)
 
 ## Mises a jour
 - Optimisation des performances de chargement via IntersectionObserver

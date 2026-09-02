@@ -160,9 +160,9 @@ Le projet a été conçu comme une vitrine touristique orientée réservation, a
 
 ## Captures d'ecran
 
-![Capture desktop](docs/github-captures/10-garden-inn-2026-08-07_23-11-15-desktop.png)
+![Capture desktop](docs/github-captures/10-garden-inn-2026-09-02_14-56-33-desktop.png)
 
-![Capture mobile](docs/github-captures/10-garden-inn-2026-08-07_23-11-15-mobile.png)
+![Capture mobile](docs/github-captures/10-garden-inn-2026-09-02_14-56-33-mobile.png)
 
 ## Variables d'environnement
 
