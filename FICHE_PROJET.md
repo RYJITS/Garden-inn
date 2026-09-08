@@ -12,7 +12,7 @@ Projet explique sur Site Ma Methode: la fiche publique peut presenter son utilit
 - Fonctionnement: fonctionnel.
 - Securite: OK pour une presentation publique.
 - Ma Methode: fiche explicative visible.
-- Publication externe: candidat public, validation finale separee.
+- Publication externe: GitHub public actif.
 
 ## A quoi sert le projet
 Site vitrine moderne pour Bukit Lawang Garden Inn, conçu comme une plateforme de découverte et de réservation. L'application présente les chambres, le restaurant, les excursions et les services de transfert avec une interface responsive et accessible. Les fonctionnalités clés incluent une navigation multilingue, une conversion de devises en temps réel, et des outils d'interaction comme les itinéraires Google Maps et les liens de réservation directe.
@@ -71,9 +71,9 @@ Après installation, l'application peut être lancée en local avec `npm run dev
 - Logging des événements utilisateur (clics, erreurs, etc.)
 
 ## Captures d'ecran
-![Capture 1 - garden-inn](docs/captures/10-garden-inn-2026-08-30_00-29-42-desktop.png)
+![Capture 1 - garden-inn](docs/github-captures/10-garden-inn-2026-09-02_14-56-33-desktop.png)
 
-![Capture 2 - garden-inn](docs/captures/10-garden-inn-2026-08-30_00-29-42-mobile.png)
+![Capture 2 - garden-inn](docs/github-captures/10-garden-inn-2026-09-02_14-56-33-mobile.png)
 
 ## Mises a jour
 - Optimisation des performances de chargement via IntersectionObserver
